@@ -72,7 +72,7 @@ body {
 }
 .center {
 	width: 390px;
-	height: 700px;
+	height: 450px;
 	display: flex;
 	flex-direction: column;
 }
@@ -108,5 +108,11 @@ body {
 	width: 113px;
 	height: 113px;
 	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5) inset;
+}
+body {
+	margin: 0;
+}
+#app {
+	min-height: 100vh;
 }
 </style>
