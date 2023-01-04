@@ -1,5 +1,6 @@
 <template>
 	<div class="content">
+		<img src="./assets/frog.png" alt="froggy" class="background-image">
 		<div class="left"/>																
 		<div class="center">
 			<img class="image" src="./assets/kek.jpg">
@@ -108,6 +109,13 @@ body {
 	width: 113px;
 	height: 113px;
 	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5) inset;
+}
+.background-image {
+	position: absolute;
+	bottom: -10px;
+	right: 0;
+	height: 100px;
+	width: 100px;
 }
 body {
 	margin: 0;
